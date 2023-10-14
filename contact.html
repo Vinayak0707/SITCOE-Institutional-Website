@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="with=device-width, initial-scale=1.0">
+        <Title>Sharad Institute Of Technology, College Of Engineering, Yadrav </Title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.0/css/fontawesome.min.css">
+    </head>
+    <body>
+        <section class="Sub-header">
+            <nav>
+             <a href="index.html"><img src="images/logo (1).png"></a>
+             <div class="nav-links" id="navLinks">
+                <i class="fa fa-times" onclick="hideMenu()"></i>
+
+
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="course.html">COURSE</a></li>
+                    <li><a href="blog.html">BLOG</a></li>
+                    <li><a href="contact.html">CONTACT</a></li>
+                </ul>
+
+            </div>
+             <i class="fa fa-bars"onclick="showMenu()"></i>
+            </nav>
+            <h1>Contact Us</h1>
+                
+         </section> 
+         <!------------Contact us content--------------->
+        <section class="location">
+
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3821.382083067529!2d74.4773161134696!3d16.707776888489185!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bc11ded0475eadb%3A0x79f3c5079c954ace!2sSharad%20Institute%20of%20Technology%20College%20of%20Engineering%2C%20Ichalkaranji%20(Kolhapur)!5e0!3m2!1sen!2sin!4v1669266716861!5m2!1sen!2sin" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </section>
+
+        <section class="contact-us">
+            <div class="row">
+                <div class="contact-col">
+                    <div>
+                        <i class="fa fa-home"></i>
+                        <span>
+                            <h5>Gat No. 525, 473/A,behind Omkareshwar Temple</h5>
+                            <p>Yadrav, Ichalkaranji, Maharashtra 416115</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-phone"></i>
+                        <span>
+                            <h5>02322 253 000</h5>
+                            <p>Monday to Saturday, 9.30AM to 4.30PM</p>
+                        </span>
+                    </div>
+                    <div>
+                        <i class="fa fa-envelope-o"></i>
+                        <span>
+                            <h5>sitcoe.ac.in</h5>
+                            <p>Email us your Query</p>
+                        </span>
+                    </div>
+                    
+                </div>
+                <div class="contact-col">
+                    <form action="form-handler.php" method="post">
+                        <input type="text" name="name" placeholder="Enter your name" required>
+                        <input type="email" name="email" placeholder="Enter email address" required>
+                        <input type="text" name="subject" placeholder="Enter your subject" required>
+                        <textarea rows="8" name="message" placeholder="Message" required></textarea>
+                        <button type="submit" class="hero-btn red-btn">Send Message</button>
+                    </form>
+
+                </div>
+            </div>
+
+        </section>
+        
+        
+
+         <!---------------Footer------------------>
+         <section class="footer">
+            <h4>About us</h4>
+            <p>Electronics Engineering is one of the largest and most sophisticated branches of engineering. It has made us available the equipments like Television, Radio, computers, telephones etc. Electronics has a major role in improving productivity in industries like oil, energy, agriculture and so many other important sectors of economy.
+                An electronics engineer works in groups to design, fabricate, produce, test and supervise the manufacturing of complex products and systems i.e. electronic equipment and components.
+                
+                He works for a number of industries including hospitals, computer industries, electronic data processing systems for communication and in defense etc. They work with microprocessors, fiber optics, telecommunication, television, radios etc. Electronics engineering is a rapidly growing sector where there is excellent job opportunity for the skilled professionals.
+                
+                </p>
+            <div class="icons">
+                <i class="fa fa-facebook"></i>
+                <i class="fa fa-twitter"></i>
+                <i class="fa fa-instagram"></i>
+                <i class="fa fa-linkdin"></i>
+                
+
+            </div>
+            <p>Copyright<i class=""></i> @Rushikesh Dandage,Aftab Momin,Janmejay Desai,Sammed patil.</p>
+        </section>   
+
+         <!------Javascript for Toggle Menu ------>
+         
+         <script>
+
+            var navLinks = document.getElementById("navLinks");
+            function showMenu(){
+                navLinks.style.right="0";
+            }
+            function hideMenu(){
+                navLinks.style.right ="-200";
+            }
+         </script>
+
+
+    </body>  
+    </html> 
